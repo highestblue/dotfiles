@@ -25,8 +25,8 @@
       target=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting &&
       git clone --depth 1 $repo $target ||
       git -C $target pull
-  - description: Installing pure
-    command: repo=https://github.com/sindresorhus/pure.git &&
-      target=$HOME/.zsh/pure &&
+  - description: Installing Powerlevel10k
+    command: repo=https://github.com/romkatv/powerlevel10k.git &&
+      target=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k &&
       git clone --depth 1 $repo $target ||
       git -C $target pull

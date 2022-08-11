@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 
-include "$DOTFILES/zsh/pure.zsh"
+include "$DOTFILES/zsh/p10k.zsh"
 
 if [[ $(uname) = Darwin ]]; then
   include "$DOTFILES/zsh/nvm.zsh"
