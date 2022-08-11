@@ -112,5 +112,4 @@ include "$DOTFILES/zsh/pure.zsh"
 if [[ $(uname) = Darwin ]]; then
   include "$DOTFILES/zsh/nvm.zsh"
   include "$DOTFILES/zsh/thinkific.zsh"
-  include "$DOTFILES/zsh/fzf.zsh"
 fi

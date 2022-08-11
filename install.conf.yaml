@@ -30,8 +30,3 @@
       target=$HOME/.zsh/pure &&
       git clone --depth 1 $repo $target ||
       git -C $target pull
-  - description: Installing fzf
-    command: repo=https://github.com/junegunn/fzf.git &&
-      target=$HOME/.fzf &&
-      $(git clone --depth 1 $repo $target && $target/install) ||
-      git -C $target pull
