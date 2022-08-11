@@ -8,6 +8,9 @@
     ~/.zshrc:
       path: ./zsh/base.zsh
       force: true
+    ~/.p10k.zsh:
+      path: ./zsh/p10k.zsh
+      force: true
     ~/.gitconfig: git.conf
 
 - shell:
