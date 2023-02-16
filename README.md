@@ -2,21 +2,22 @@
 
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy!
 
-### Setting up your Mac
+### Getting Started
 
 1. Clone this repo to `~/dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:keltonkowalchuk/dotfiles.git ~/dotfiles
+    git clone --recursive git@github.com:highestblue/dotfiles.git ~/dotfiles
     ```
 
-2. Run the installation with:
+2. Make sure you have `curl` and `zsh` installed
+
+3. Run the installation with:
 
     ```zsh
     ~/dotfiles/install
     ```
-
-3. Install Homebrew & Mac apps specified in the [`Brewfile`](./Brewfile) with:
+4. (Optional: Mac only) Install Homebrew & Mac apps specified in the [`Brewfile`](./Brewfile) with:
 
     ```zsh
     ~/dotfiles/mac-setup.sh
@@ -29,8 +30,8 @@ This repository serves as my way to help me setup and maintain my Mac. It takes 
 1. Open up your Settings JSON in VSCode by using the command pallete and typing "settings json" and add the following:
 
     ```zsh
-    # Replace "keltonkowalchuk" with your Github username if forking this repo
-    "dotfiles.repository": "keltonkowalchuk/dotfiles", 
+    # Replace "highestblue" with your Github username if forking this repo
+    "dotfiles.repository": "highestblue/dotfiles", 
     "dotfiles.installCommand": "~/dotfiles/install",
     "terminal.integrated.defaultProfile.linux": "zsh"
     ```
